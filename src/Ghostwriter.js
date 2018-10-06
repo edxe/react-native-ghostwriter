@@ -25,7 +25,7 @@ class Ghostwriter extends Component {
             string: '',
             stringStyles: null,
             containerStyles: null,
-            clearEverySequence: false,
+            clearEverySequence: this.props.clearEverySequence | true,
             sequences: [],
             sequenceDuration: 1750,
             writeSpeed: 0,
