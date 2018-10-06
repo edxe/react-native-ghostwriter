@@ -23,8 +23,8 @@ class Ghostwriter extends Component {
         this.state = {
             startDelay: 0,
             string: '',
-            stringStyles: null,
-            containerStyles: null,
+            stringStyles: this.props.stringStyles | null,
+            containerStyles: this.props.containerStyles | null,
             clearEverySequence: this.props.clearEverySequence | true,
             sequences: [],
             sequenceDuration: 1750,
