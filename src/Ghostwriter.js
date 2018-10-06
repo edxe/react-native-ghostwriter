@@ -264,8 +264,10 @@ class Ghostwriter extends Component {
 const styles = StyleSheet.create({
     container: {},
     string: {
-        fontSize: 18,
-        fontWeight: "300"
+      fontSize: 32,
+                                             fontWeight: "300",
+                                             color: '#616161',
+                                             fontFamily: 'HelveticaNeue-Light',
     }
 });
 
